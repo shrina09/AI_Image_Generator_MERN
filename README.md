@@ -6,7 +6,7 @@ This is an AI Image Generator website that generates an image based on a user pr
 ## Getting Started
 ### Dependencies
 
-It requires Node.js and npm installed on the machine that will run this program. It also requires an API key from OpenAI API, MongoDB, and Cloudinary. In addition to the Cloudinary API key, it requires the Cloudinary API secret and cloud name. There an example .env file provided called ".env_samples". Create a .env file and add the contents of the ".env_samples" file. Where it says "YOUR_API_KEY_HERE" type in the API key, where it says "YOUR_CLOUDINARY_CLOUD_NAME" with Cloudinary name and "YOUR_CLOUDINARY_API_SECRET" with the Cloudinary API secret. Sign up to OpenAI, MongoDB, and Cloudinary to obtain the API keys and the cloud name and API secret for Cloudinary can be found where the API key is.
+It requires Node.js and npm installed on the machine that will run this program. It also requires an API key and other environment variables from OpenAI API, MongoDB, and Cloudinary. Insert the appropriate environment variables in their corresponding places as instructed in the example .env file provided called ".env_sample" under the directory named "server". Sign up to OpenAI, MongoDB, and Cloudinary to obtain the API keys, cloud name, API secret for Cloudinary and the MongoDB URL.
 
 ### Executing program
 #### To set up

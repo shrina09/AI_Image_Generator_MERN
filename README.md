@@ -9,8 +9,8 @@ This is an AI Image Generator website that generates an image based on a user pr
 It requires Node.js and npm installed on the machine that will run this program. It also requires an API key from OpenAI API, MongoDB, and Cloudinary. In addition to the Cloudinary API key, it requires the Cloudinary API secret and cloud name. There an example .env file provided called ".env_samples". Create a .env file and add the contents of the ".env_samples" file. Where it says "YOUR_API_KEY_HERE" type in the API key, where it says "YOUR_CLOUDINARY_CLOUD_NAME" with Cloudinary name and "YOUR_CLOUDINARY_API_SECRET" with the Cloudinary API secret. Sign up to OpenAI, MongoDB, and Cloudinary to obtain the API keys and the cloud name and API secret for Cloudinary can be found where the API key is.
 
 ### Executing program
-####To set up
-*For frontend:
+#### To set up
+* For frontend:
 ```
 cd client
 npm create vite@latest ./ (choose react as the framework and Javascript as the variant)
@@ -20,19 +20,19 @@ npx tailwindcss init -p
 npm install file-saver
 npm install react-router-dom
 ```
-*For backend:
+* For backend:
 ```
 npm init -y
 npm install cloudinary cors dotenv express mongoose nodemon openai
 ```
 
-####How to build and run the program
-*To run the frontend:
+#### How to build and run the program
+* To run the frontend:
 ```
 cd server
 npm start
 ```
-*To run the frontend:
+* To run the frontend:
 ```
 cd client
 npm run dev

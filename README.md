@@ -37,8 +37,7 @@ npm start
 cd client
 npm run dev
 ```
-On any browser of choice:
-http://localhost:5173/
+On any browser of choice open http://localhost:5173/
 
 ## Author Information
 Your name: Shrina<br />

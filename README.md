@@ -14,6 +14,11 @@ It requires Node.js and npm installed on the machine that will run this program.
 For frontend:
 cd client
 npm create vite@latest ./ (choose react as the framework and Javascript as the variant)
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install file-saver
+npm install react-router-dom
 ```
 
 * How to build and run the program

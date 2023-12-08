@@ -19,6 +19,8 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm install file-saver
 npm install react-router-dom
+
+For backend:
 ```
 
 * How to build and run the program

@@ -10,7 +10,7 @@ It requires Node.js and npm installed on the machine that will run this program.
 
 ### Executing program
 * To set up
-** For frontend:
+  * For frontend:
 ```
 cd client
 npm create vite@latest ./ (choose react as the framework and Javascript as the variant)
@@ -20,7 +20,7 @@ npx tailwindcss init -p
 npm install file-saver
 npm install react-router-dom
 ```
-**For backend:
+  *For backend:
 ```
 npm init -y
 npm install cloudinary cors dotenv express mongoose nodemon openai

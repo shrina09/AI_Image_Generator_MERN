@@ -20,7 +20,7 @@ npx tailwindcss init -p
 npm install file-saver
 npm install react-router-dom
 ```
-  *For backend:
+  * For backend:
 ```
 npm init -y
 npm install cloudinary cors dotenv express mongoose nodemon openai

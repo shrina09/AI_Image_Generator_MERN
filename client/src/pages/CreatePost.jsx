@@ -44,69 +44,6 @@ const CreatePost = () => {
     }
   }
 
-  // const generateImage = async () => {
-  //   if (form.prompt) {
-  //     try {
-  //       setGeneratingImg(true);
-  //       const response = await fetch('http:localhost8080/api/v1/dalle', {
-  //         method: 'POST',
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         body: JSON.stringify({
-  //           prompt: form.prompt,
-  //         }),
-  //       });
-
-  //       const data = await response.json();
-  //       setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
-  //     } catch (err) {
-  //       alert(err);
-  //     } finally {
-  //       setGeneratingImg(false);
-  //     }
-  //   } else {
-  //     alert('Please provide proper prompt');
-  //   }
-  // };
-
-  // const generateImage = async () => {
-  //   if (form.prompt) {
-  //     try {
-  //       setGeneratingImg(true);
-  //       const response = await fetch('http://localhost:8080/api/v1/dalle', {
-  //         method: 'POST',
-  //         headers: {
-  //           'Content-Type': 'application/json',
-  //         },
-  //         body: JSON.stringify({
-  //           prompt: form.prompt,
-  //         }),
-  //       });
-  
-  //       if (!response.ok) {
-  //         throw new Error(`HTTP error! Status: ${response.status}`);
-  //       }
-  
-  //       const data = await response.json();
-  
-  //       // Check if the response contains valid JSON data
-  //       if (data.photo) {
-  //         setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}` });
-  //       } else {
-  //         throw new Error('Response does not contain the expected data');
-  //       }
-  //     } catch (error) {
-  //       alert(error.message);
-  //     } finally {
-  //       setGeneratingImg(false);
-  //     }
-  //   } else {
-  //     alert('Please enter a prompt');
-  //   }
-  // };
-  
-
   const handleSubmit = async (e)=> {
     e.preventDefault();
 
